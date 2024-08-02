@@ -45,7 +45,7 @@ header {
 .log-img img {
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .log-img p {
   font-size: 14px;
@@ -54,6 +54,7 @@ header {
   color: #dcd8d8;
   text-transform: capitalize;
 }
+
 .menu-list {
   width: 650px;
   height: 100%;
@@ -109,6 +110,7 @@ header {
 .search-bar div input::placeholder {
   color: #efe2e2;
 }
+
 .leader {
   width: 35px;
   height: 35px;
@@ -169,14 +171,15 @@ header {
   height: 100%;
 }
 .company-features {
-  margin: 7px 12vw;
+  margin: 7px auto;
+  width: 90%;
   height: 400px;
-
   padding: 7px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
   margin-bottom: 50px;
 }
 .item {
@@ -217,9 +220,10 @@ header {
 }
 .wrap-features {
   width: 100%;
-  height: 800px;
+  height: 85%;
 
   margin-top: 35px;
+  margin-inline: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -232,7 +236,7 @@ header {
   font-weight: 600;
   font-size: 18px;
   align-self: flex-start;
-  padding-left: 340px;
+  padding-left: 27%;
   color: green;
 }
 .wrap-features p {
@@ -242,7 +246,8 @@ header {
   margin-bottom: 50px;
 }
 .box {
-  width: 900px;
+  width: 65%;
+  margin: 0 auto;
   height: 300px;
   display: flex;
   align-items: center;
@@ -599,15 +604,15 @@ header {
   font-weight: 600;
   text-transform: uppercase;
   color: greenyellow;
-  margin-bottom: 1rem;
-  padding-left: 210px;
+  margin-bottom: 0.5rem;
+  padding-left: 18%;
 }
 
 .section__header {
   font-size: 24px;
   line-height: 1.3;
   font-weight: 600;
-  padding-left: 210px;
+  padding-left: 18%;
 }
 /* SLIDER */
 .slider {
@@ -769,7 +774,7 @@ header {
 }
 
 .section__title--testimonials {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .section-company-num {
   margin: 20px auto 0;
@@ -871,6 +876,7 @@ header {
 .footer--card {
   width: 400px;
   height: 100%;
+  margin-inline-end: 3px;
 }
 .wrap--contact {
   width: 100%;
@@ -914,6 +920,7 @@ header {
   height: 40px;
 }
 .wrap--person p {
+  margin-left: 3px;
   font-size: 14px;
   font-family: my3;
   text-transform: capitalize;

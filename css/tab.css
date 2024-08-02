@@ -1,0 +1,134 @@
+@media screen and (min-width: 1000px) and (max-width: 1073px) {
+  .item {
+    width: 350px;
+  }
+  .wrap--footer {
+    padding-inline: 80px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .log-img p {
+    font-size: 13px;
+  }
+  .log-img img {
+    width: 40px;
+    height: 40px;
+  }
+  .search-bar {
+    display: none;
+  }
+  .menu-list li {
+    margin-inline: 4px;
+    padding-inline: 12px;
+  }
+  .menu-list li a {
+    width: fit-content;
+  }
+  .wrap-cover {
+    padding-top: 120px;
+  }
+  .wrap-cover h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  .wrap-cover p {
+    font-size: 13px;
+  }
+  .item {
+    width: 45%;
+    height: 180px;
+  }
+  .item img {
+    width: 50px;
+    height: 50px;
+  }
+  .wrap-operation {
+    padding: 20px 0;
+  }
+  .wrap-operation h3 {
+    font-size: 16px;
+    padding-left: 100px;
+  }
+  .wrap-operation p {
+    font-size: 22px;
+    padding-left: 100px;
+  }
+  .wrap-relative {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .btns .btn {
+    padding: 4px 45px;
+    font-size: 14px;
+  }
+  .wrap-text-mesg img {
+    width: 120px;
+    height: 125px;
+  }
+  .product-text-cont h2 {
+    font-size: 25px;
+  }
+  .product-text-cont p {
+    font-size: 15px;
+  }
+  .product-wrap {
+    width: 72%;
+  }
+  .progress-bar {
+    margin-block: 8px;
+    height: 6px;
+  }
+  .card-thrid-stat > button {
+    padding: 3px 25px;
+  }
+  .box {
+    width: 85%;
+  }
+  .wrap-features p {
+    font-size: 22px;
+  }
+  .slider {
+    left: 5px;
+  }
+  .testimonial {
+    width: 60%;
+    left: 20px;
+  }
+  .section-company-num {
+    padding-inline: 0;
+  }
+  .num--one {
+    width: 90px;
+    padding: 3px 1px;
+    margin-inline: 5px;
+  }
+  .num--one h3 {
+    font-size: 23px;
+  }
+  .num--one p {
+    font-size: 13px;
+  }
+  .marleft {
+    margin-left: 100px;
+  }
+  .num-social p {
+    font-size: 12px;
+  }
+  .section__heade {
+    font-size: 30px;
+  }
+  .wrap--footer {
+    padding-inline: 50px;
+  }
+  .wrap--contact > p {
+    font-size: 13px;
+    padding-block: 3px;
+  }
+  .grid-contact p {
+    font-size: 13px;
+  }
+  .wrap--person img {
+    width: 30px;
+    height: 30px;
+  }
+}
