@@ -1,6 +1,3 @@
-"use strict"
-//Elemnts
-
 const lists = document.querySelectorAll(".menu-list li a")
 const btn = document.querySelectorAll(".btn")
 const tabH3 = document.querySelector(".wrap-text-mesg section h3")

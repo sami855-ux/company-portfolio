@@ -638,12 +638,10 @@ header {
   align-items: center;
   justify-content: center;
 
-  /* THIS creates the animation! */
   transition: transform 1s;
 }
 
 .slide > img {
-  /* Only for images that have different size than slide */
   width: 45px;
   height: 45px;
   object-fit: cover;
