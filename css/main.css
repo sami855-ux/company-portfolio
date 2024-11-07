@@ -21,6 +21,9 @@
 *::selection {
   background-color: #b6ecc3;
 }
+*::-webkit-scrollbar {
+  width: 0;
+}
 header {
   position: absolute;
   top: 0;
